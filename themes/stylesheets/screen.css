@@ -73,7 +73,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./themes/images/header.jpg");
+  width: 100%;
+  height: auto;
+  background-image: url("themes/images/header.jpg");
   background-position: center;
   background-size: cover;
 }
