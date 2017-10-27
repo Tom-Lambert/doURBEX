@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    background-image: url('./themes/images/header.jpg');
+    background-position: center;
+    background-size: cover;
+}
