@@ -1,8 +1,9 @@
 <?php
-  require('skeleton/skeleton.html');
+  // require('skeleton/skeleton.html');
+
 ?>
 
-<head>
+<!-- <head>
   <title>doURBEX - Accueil</title>
 </head>
 
@@ -17,4 +18,4 @@
     <a href="pages/carte.php">Carte maps</a>
   </div>
   </div>
-</body>
+</body> -->
