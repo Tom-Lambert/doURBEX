@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="themes/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="themes/stylesheets/screen.css">
   <link rel="icon" type="img/png" href="">
   <title>doUrbex</title>
 </head>
