@@ -1,21 +1,28 @@
 <?php
-  // require('skeleton/skeleton.html');
+  session_start();
+  require_once("config/config.php");
+
+  $container = "";
+  $link = "";
+
+  if (isset($_GET['link'])){
+    $link = $_GET['link'];
+  }
+
+  elseif ($link=="") {
+    ob_start();
+    //var_dump(BASE_FILE."pages/accueil.html.php");
+    require_once(BASE_FILE."views/home.php");
+    $container= ob_get_clean();
+  }
+
+  else{
+    $container = "erreur";
+    echo "<button><a href=\"index.php\">Accueil</a></button>";
+  }
+
+
+  require_once('skeleton/skeleton.html.php');
 
 ?>
 
-<!-- <head>
-  <title>doURBEX - Accueil</title>
-</head>
-
-<header>
-  <h1 style="text-align:center;">DoURBEX</h1>
-  <hr>
-</header>
-
-<body>
-  <div class="container">
-  <div class="row">
-    <a href="pages/carte.php">Carte maps</a>
-  </div>
-  </div>
-</body> -->
